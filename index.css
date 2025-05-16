@@ -1,0 +1,38 @@
+/* Alinhar Div no meio da tela */
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.register-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+}
+
+.inputField {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#button {
+    margin: 15px auto;
+    width: 50%;
+}
+
+.backgroud-register-card {
+    display: flex;
+    justify-content: center; /* eixo X */
+    align-items: center;     /* eixo Y */
+    height: 100vh;           /* por exemplo, toda a altura da tela */
+}
+
+.backgroud-user-list {
+    display: flex;
+    justify-content: center; /* eixo X */
+    align-items: center;     /* eixo Y */
+    height: 100vh;           /* por exemplo, toda a altura da tela */
+}
